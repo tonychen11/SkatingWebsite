@@ -10,7 +10,6 @@ export function Footer() {
           </p>
         </div>
         <div className="text-sm leading-6 text-[var(--color-muted)] md:text-right">
-          <p>Created by Carissa</p>
           <p>Built with Next.js and Tailwind CSS for Vercel deployment</p>
         </div>
       </div>
