@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 :root {
+  --font-display: "Georgia", "Times New Roman", serif;
+  --font-body: "Trebuchet MS", "Segoe UI", sans-serif;
   --color-cream: #f9f1e6;
   --color-paper: #fff9f2;
   --color-card: rgba(255, 249, 242, 0.9);
@@ -35,6 +37,8 @@ body {
     linear-gradient(180deg, #fff9f2 0%, #f9f1e6 100%);
   color: var(--color-ink);
   font-family: var(--font-body), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {

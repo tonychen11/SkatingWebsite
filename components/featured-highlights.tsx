@@ -26,12 +26,12 @@ export function FeaturedHighlights() {
               Stories
             </div>
             <h2 className="display-title mt-5 text-4xl leading-tight md:text-5xl">
-              The site is designed to be useful, warm, and memorable.
+              Stories, milestones, and updates help skating feel personal.
             </h2>
             <p className="mt-5 max-w-lg text-base leading-8 text-white/75">
-              Instead of feeling like a plain school assignment, the experience
-              is built like a polished magazine-meets-catalog landing page with
-              approachable storytelling and easy navigation.
+              This section brings together interviews, beginner moments,
+              competition goals, and community highlights so families can read
+              about the people and experiences behind the sport.
             </p>
           </div>
 

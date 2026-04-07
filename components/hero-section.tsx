@@ -9,7 +9,6 @@ export function HeroSection() {
     <section className="section-spacing pt-10 md:pt-16">
       <div className="section-shell grid items-center gap-8 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="relative">
-          <div className="eyebrow">School Project 2026</div>
           <h1 className="display-title mt-5 max-w-3xl text-5xl leading-[0.95] md:text-7xl">
             A joyful guide to youth figure skating, all in one place.
           </h1>
@@ -45,7 +44,7 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="relative min-h-[540px]">
+        <div className="relative">
           <div className="floating-orb left-6 top-6 h-16 w-16 bg-[var(--color-gold)]" />
           <div
             className="floating-orb right-10 top-24 h-12 w-12 bg-[var(--color-sky)]"
@@ -56,7 +55,7 @@ export function HeroSection() {
             style={{ animationDelay: "2.2s" }}
           />
 
-          <div className="glass-card absolute left-0 top-4 w-[78%] rounded-[2rem] p-6">
+          <div className="glass-card relative rounded-[2rem] p-6 md:p-7">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm font-black uppercase tracking-[0.18em] text-[var(--color-berry)]">
@@ -81,7 +80,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="glass-card absolute bottom-0 right-0 w-[82%] rounded-[2rem] p-6">
+          <div className="glass-card relative mt-5 rounded-[2rem] p-6 md:ml-12 md:p-7">
             <div className="grid gap-4 sm:grid-cols-[1.1fr_0.9fr]">
               <div>
                 <p className="text-sm font-black uppercase tracking-[0.18em] text-[var(--color-coral)]">

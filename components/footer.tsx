@@ -5,12 +5,12 @@ export function Footer() {
         <div>
           <p className="display-title text-2xl">Glide Guide</p>
           <p className="mt-2 text-sm leading-6 text-[var(--color-muted)]">
-            School project website about promoting figure skating for youth and
-            young children.
+            A youth figure skating guide for families, clubs, and young
+            skaters.
           </p>
         </div>
         <div className="text-sm leading-6 text-[var(--color-muted)] md:text-right">
-          <p>Created by Tony</p>
+          <p>Created by Carissa</p>
           <p>Built with Next.js and Tailwind CSS for Vercel deployment</p>
         </div>
       </div>

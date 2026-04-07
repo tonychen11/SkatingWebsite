@@ -40,12 +40,14 @@ export function CategoryGrid() {
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <div className="eyebrow">Browse Categories</div>
-            <h2 className="section-title mt-4">Explore the website like a curated skating shelf.</h2>
+            <h2 className="section-title mt-4">
+              Browse the parts of skating families ask about most.
+            </h2>
           </div>
           <p className="section-copy max-w-xl">
-            Each category is designed to be scannable on desktop and easy to tap
-            through on mobile, so the experience feels organized without being
-            stiff.
+            From first lessons to competitions and club events, each section is
+            organized to make skating information quick to scan and easy to
+            revisit.
           </p>
         </div>
 

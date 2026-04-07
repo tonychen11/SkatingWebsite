@@ -22,10 +22,10 @@ export function OverviewSection() {
       <div className="section-shell">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
-            <div className="eyebrow">Project Overview</div>
+            <div className="eyebrow">About Glide Guide</div>
             <h2 className="section-title mt-4">
-              A school project built to make figure skating feel clear,
-              exciting, and accessible.
+              Figure skating information for families, young skaters, and local
+              clubs in one easy place.
             </h2>
           </div>
 
@@ -38,9 +38,10 @@ export function OverviewSection() {
               families to search across many different platforms.
             </p>
             <p className="section-copy mt-4">
-              It also reflects the learning process behind the project itself:
-              strengthening coding skills, researching better platform ideas, and
-              using mentor feedback to improve design decisions for real users.
+              It is meant to feel welcoming for beginners while still being
+              useful for people already involved in skating, with organized
+              sections for learning, planning, reading, and discovering new
+              opportunities on and off the ice.
             </p>
           </div>
         </div>
